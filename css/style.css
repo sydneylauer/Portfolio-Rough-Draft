@@ -1,0 +1,62 @@
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus{
+  top:20px;
+  color: black;
+  text-decoration-style: solid;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color:blue;
+  }
+  
+.active {
+    color: darkblue;
+    text-decoration: underline;
+  }
+
+.grid-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-items: stretch;
+  justify-content: space-evenly;
+}
+
+.flex-gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.headshot {
+  width: 25%;
+}
+
+.description {
+  text-align: left;
+  position: relative;
+}
+
+.flex-gallery img{
+  width: 25%;
+  height: 25%;
+}
